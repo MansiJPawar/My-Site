@@ -1,0 +1,157 @@
+/*selectors*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+div {
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514E;
+
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-top-style: dotted;
+width: 5%;
+    border-bottom-style: none;
+border-width: thick;
+border-color: #EAF6F6;
+
+}
+/*class*/
+.top {
+  position: relative;
+  margin-left: 0;
+  padding-top: 100px;
+    background-color: #EAF6F6;
+}
+
+.p1 {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+}
+
+.mountain {
+  margin: auto;
+}
+
+.skill-img1 {
+width: 25%;
+float: left;
+margin-right: 10px;
+}
+
+.skill-img2 {
+width: 25%;
+float: right;
+margin-left: 10px;
+}
+
+.img1{
+  width: 200px;
+  height: 120px;
+}
+
+
+
+.last{
+  background-color:  #66BFBF;
+  padding: 30px;
+}
+
+.footer-link{
+  margin:40px 50px 40px 50px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.footer-statement{
+  color: #EAF6F6;
+  margin: 60px auto 10px auto;
+  font-size: 12px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: rgba(61, 220, 246, 0.83);
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #88D2D9;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
